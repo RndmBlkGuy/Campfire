@@ -7,7 +7,7 @@
         <title> Stories by the camp fire</title>
     </head>
 
-    <body >
+    <body class="postbody">
         <div class="text-center header">
             <h1>Campfire </h1>
             <img class="logosmall" src="/camping-logo.png"  width="50">
@@ -18,6 +18,16 @@
 
                 </div>
                 <div class="col-lg-6">
+
+                    <div class="post container">
+                        <img class="logosmall" style="float: left; margin: 0px 15px 15px 0px;" src="/camping-logo.png"  width="50">
+                        <div>
+                            <h2>Dushaun Williams</h2>
+                            <input type="text" placeholder="Post here" name="postbody">
+                            <input type="text" placeholder="Add Hashtags here" name="hashtag">
+                        </div>
+                    </div>
+
                     <div class="post container">
                         <img class="logosmall" style="float: left; margin: 0px 15px 15px 0px;" src="/camping-logo.png"  width="50">
                         <div>
@@ -44,13 +54,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="post container">
-                        <img class="logosmall" style="float: left; margin: 0px 15px 15px 0px;" src="/camping-logo.png"  width="50">
-                        <div>
-                            <textarea> </textarea>
-                            <textarea> </textarea>
-                        </div>
-                    </div>
+                    
                     
                 </div>
                 <div class="col-lg-3 Postborderright">
@@ -61,8 +65,15 @@
         
         
 
-            <a href="/UserPage">Profile</a>
-            <a href="/Index.html">Logout</a>
+            <nav class= "navbat fixed-bottom navbar-expand-lg navbar-dark bg-dark text-center">
+            <div class="collapse navbar-collapse text-center" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li><a class="nav-link" href="/UserPage">Profile</a></li>
+                    <li><a class="nav-link" href="/Index.html">Logout</a></li>
+                </ul>  
+            </div>
+        </nav>
+            
         </div>
         
     </body>

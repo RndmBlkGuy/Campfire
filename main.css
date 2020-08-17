@@ -16,11 +16,13 @@
     border-left: 2px solid  #FF7700;
     border-top: 1px solid  #FF7700;
     border-right: 2px solid  #FF7700;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 0px;
 }
 
 .header{
-    background-color: #32027e;
-    color: white
+    background-color: white;
 }
 
 .hashtag {
@@ -28,10 +30,8 @@
     color: #a705e7;
 }
 
-.PostBody{
-
-    padding-left: 60pp;
-    padding-right: 60pp;
+.postbody{
+background-color: #32027e;
 }
 .Postborderleft{
     background-color: #32027e;
