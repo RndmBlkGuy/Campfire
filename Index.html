@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- CSS only -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="main.css">
@@ -9,25 +10,33 @@
         <title> Campfire</title>
     </head>
 
-    <body>
-        <h1 class="title text-center">Welcome to Campfire</h1>
-        <h2 class="text-center"> What is the World talking about today</h2>
-        <div class="container text-center">
+    <body class="bodylogin">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-lg-7">
+                    <h1 class="login-box"> Welcome to Campfire</h1>
+                    <img src="/camping-logo.png">
+                </div>
 
-            <h2>Login to Continue</h2>
-            <p>
-                <button type="button" class="btn btn-primary">Login</button>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">With textarea</span>
+                <div class="col-lg-5 backcolor">
+                    <div class="login-box">
+                        <h1>Login</h1>
+                    <div class="textbox">
+                        <i class="far fa-user"></i>   
+                        <input type="text" placeholder="Username" name="" value="">
                     </div>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
-                  </div>
-            </p>
-            <img src="" alt="Microsoft">
-
+                    <div class="textbox">
+                        <i class="fas fa-lock" aria-hidden="true"></i>
+                        <input type="password" placeholder="Password" name="" value="">
+                    </div>
+                        <input class="btn" type="button" name="" value="Sign in">
+                    </div>
+                </div>
+            </div>
         </div>
-        <nav class= "navbat fixed-bottom navbar-expand-lg navbar-light bg-light text-center">
+
+
+        <nav class= "navbat fixed-bottom navbar-expand-lg navbar-dark bg-dark text-center">
             <div class="collapse navbar-collapse text-center" id="navbarMenu">
                 <ul class="navbar-nav">
                     <li><a class="nav-link" href="/UserPage">Profile</a></li>
